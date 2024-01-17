@@ -1,0 +1,90 @@
+body{
+    width: 1240px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+/* header */
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px rgb(0 0 0 / 10%);
+    z-index: 10;
+}
+
+
+.main-brand{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-brand a image{
+    width: 70px;
+}
+
+.main-navigation{
+    margin-left: 500px;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.main-navigation-item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation-item a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.main-navigation-item a:hover{
+    color: aqua;
+}
+/* body section */
+
+.main-navigation-item a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.name-region{
+    padding: 10px;
+    font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.img-region{
+    width: 1240px;
+}
+
+.title-region{
+    font-size: 50px;
+}
+
+.info-region{
+    font-size: 20x;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.back-link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: blue;
+    text-transform: capitalize;
+}

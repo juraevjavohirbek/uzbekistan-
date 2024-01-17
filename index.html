@@ -1,173 +1,214 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O'zbekiston Bosh sahifasi</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <!-- Saytning headeri -->
-    <header class="sate-header">
-        <!-- LOGO -->
-        <a class="sayt-logo" href="index.html"> 
-            <img
-             class="sate-logo-img" src="images/Emblem_of_Uzbekistan.svg" alt="O'zbekiston LOGO" height="50">
-        </a>  
-
-       <nav class="satenav">
-        <ul class="satenav-list">
-            <li class="satenav-item">
-                <a class="satenav-link" href="">Bosh sahifa</a>
-            </li>
-            <li class="satenav-item">
-                <a  class="satenav-link" href="">Yangiliklar</a>
-            </li>
-            <li class="satenav-item">
-                <a  class="satenav-link" href="">Aloqa</a>
-            </li>
-            <li class="satenav-item">
-                <a  class="satenav-link" href="">Malumotlar</a>
-            </li>
-           </ul>
-       </nav>
+    <!-- header section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="main-brand">
+                <a href="index.html">
+                    <img src="images/Emblem_of_Uzbekistan.svg" alt="" width="50px">
+                </a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation-items">
+                    <li class="main-navigation-item">
+                        <a href="">bosh sahifa</a>
+                    </li>
+                    <li class="main-navigation-item">
+                        <a href="catecory/news-section">yangiliklar</a>
+                    </li>
+                    <li class="main-navigation-item">
+                        <a href="#">viloyatlar ro'yhati</a>
+                    </li>
+                    <li class="main-navigation-item">
+                        <a href="#">obuna</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <hr>
-    <!-- main -->
-    <main class="main-content">
-        <section class="hero">
-            <div class="hero-conteny">
-                <h1 class="hero-heading">WELCOME TO UZBEKUSTAN</h1>
-            <a class="btn hero-button" href="">OBUNA BO'LISH</a>
+    <!-- /header section -->
+
+    <!-- main section -->
+    <div class="container">
+        <section class="main-section">
+            <div class="main-welcome">
+                <h1>Welcome to <span>Uzbekistan</span></h2>
+                <button type="button" class="main-section-button">obuna bo'lish</button>
             </div>
         </section>
-        <!-- NEWS -->
-        <section class="news">
-            <h3 class="news-heading">Yangiliklar</h3>
-            <ul class="news-list">
-                <li class="news-item">
-                    <img class="news-item-img" src="images/images (2).jpg" alt="" width="400" height="200" srcset="images/images (2).jpg 1x, images/images (2) 2x.jpg  2x">
-                    <div class="news-item-contens">
-                        <h4 class="news-item-heading">Sayyohlarga qulaylik</h4>
-                        <p class="news-item-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, reprehenderit vel natus nisi magnam nesciunt ipsum maiores quae maxime harum, labore unde suscipit nam distinctio optio obcaecati illo, nulla hic. Velit facilis odio voluptatem error, qui ducimus veniam, eos necessitatibus ratione eum veritatis voluptatum inventore aut fuga nihil sequi eveniet.</p>
-                        <a class="btn btn-news-item" href="">Ko'proq</a>
-                    </div>
-                </li>
-                <li>
-                    <img class="news-item-img" src="images/samarqand.jpg" alt="" width="400" height="200" srcset="images/samarqand.jpg 1x,cimages/samarqand 2x.jpg 2x">
-                    <div class="news-item-contens">
-                        <h4 class="news-item-heading">Tungi shahar manzaralari</h4>
-                        <p  class="news-item-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, reprehenderit vel natus nisi magnam nesciunt ipsum maiores quae maxime harum, labore unde suscipit nam distinctio optio obcaecati illo, nulla hic. Velit facilis odio voluptatem error, qui ducimus veniam, eos necessitatibus ratione eum veritatis voluptatum inventore aut fuga nihil sequi eveniet. lorem.</p>
-                        <a class="btn btn-news-item" href="">Ko'proq</a>
-                    </div>
-                </li>
-                <li>
-                    <img class="news-item-img" src="images/yangi binolar.jpg" alt="" width="400" height="200" srcset="images/yangi binolar.jpg 1x,cimages/yangi binolar 2x.jpg 2x">
-                    <div class="news-item-contens">
-                        <h4 class="news-item-heading">Yangi binolar</h4>
-                        <p  class="news-item-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, reprehenderit vel natus nisi magnam nesciunt ipsum maiores quae maxime harum, labore unde suscipit nam distinctio optio obcaecati illo, nulla hic. Velit facilis odio voluptatem error, qui ducimus veniam, eos necessitatibus ratione eum veritatis voluptatum inventore aut fuga nihil sequi eveniet.</p>
-                        <a class="btn btn-news-item" href="">Ko'proq</a>
-                    </div>
-                </li>
-            </ul>
+    </div>
+    <!-- /main section -->
+
+    <!-- news section -->
+    <div class="container">
+        <section class="news-section">
+            <h2 class="section-title">Yangiliklar</h2>
+            <div class="news-cards">
+                <div class="news-card">
+                    <img class="news-card-photo" src="images/images (2).jpg" alt="">
+                    <h5 class="section-subtitle">sayyohlarga qulayliklar</h5>
+                    <p class="section-description">
+                        Bizning aeroportlarda ko‘plab xizmatlar tashkil etilmagan. Kelgan mehmonlarimiz uchun aeroportlarda internetga ulanish, shu yerning o‘zida sayyohlar uchun xarita, sim-kartalarni sotib olish imkoniyati, bizning kompaniyalarimiz tomonidan taklif etilayotgan turlar, O‘zbekistonda bo‘layotgan turli madaniy tadbirlar to‘g‘risida ma’lumotlar mavjud emas. Shu masalalar hozirda yechila boshlandi. Toshkent, Samarqand va boshqa aeroportlarda bizning maxsus axborot markazlarimiz o‘rnatildi. Mobil aloqa operatorlari bilan, turk kompaniyalari bilan kelishuv amalga oshirildi. Biz qisqa muddatda, yagona standartda aeroportlarda xizmatlarni joy-joyiga qo‘yamiz.Hozir yana ko‘plab e’tirozlar tushayotgan masala: aeroportdan chiqqanda taksichilar qo‘polroq muomalada bo‘ladi. Bu masala bo‘yicha ham biz aeroport rahbariyati bilan kelishib oldik. Qisqa muddatda u yerda ham tartib o‘rnatiladi.Milliy aviakompaniyamiz juda katta ishlarni olib bordi va 1-yanvarda qizil va yashil yo‘lakchalar o‘rnatildi. Oldin turistlarimiz aeroportlarda 1,5 soat vaqt yo‘qotardi. Hozirgi bizning o‘lchamlarimizga ko‘ra, sayyohlarimiz barcha jarayonlar (chegara, bojxona)dan 21 daqiqada o‘tib, shaharga chiqish imkoniyatiga ega.
+                    </p>
+                    <a class="section-link" href="">Ko'proq</a>
+                </div>
+                <div class="news-card">
+                    <img class="news-card-photo" src="images/samarqand.jpg" alt="">
+                    <h5 class="section-subtitle">tungi shahar manzaralari</h5>
+                    <p class="section-description">
+                        Tuncda o'zbekiston respublikasining ko'rinishi judaham chiroyli.Ayniqsa svetlar yorqinligi bilan uning chiroyi yana ham oshadi.Tunda oz'bekiston aholisi sayr qilish uchun va manzaradan zavqlanish uchun oilalari bilan chiqishadi va bu manzaradan bahramant bo'lishadi. 
+                    </p>
+                    <a class="section-link" href="">Ko'proq</a>
+                </div>
+                <div class="news-card">
+                    <img class="news-card-photo" src="images/yangi binolar.jpg" alt="">
+                    <h5 class="section-subtitle">Yangi binolar</h5>
+                    <p class="section-description">
+                        2019 yil 15 avgustdan so‘ng O‘zbekistonda qad rostlaydigan yangi baland inshootning rasmiy nomi va u haqidagi batafsil ma'lumotlar ommaga e'lon qilinadi. Unga qadar esa mamlakatimizning yetakchi, innovatsion qurilish kompaniyalaridan biri – «Murad Buildings» hamda Turkiyaning «Özgüven» kompaniyalari 5 iyulda tashkil etilgan matbuot anjumanida loyiha haqidagi boshlang‘ich yangiliklarni ma'lum qilishdi.
+                    </p>
+                    <a class="section-link" href="">Ko'proq</a>
+                </div>
+            </div>
         </section>
-        <aside>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vQVwkyn3-F8?si=hweQdUMPinJNLoW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <!-- /news section -->
+
+    <!-- reklama -->
+    <div class="container">
+        <aside class="reklama">
+            <div class="reklama-section">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vQVwkyn3-F8?si=1BSikGg5LCpxEigd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </aside>
-        <!-- VILOYATLAR RO'YHATI -->
-        <section class="viloyatlar">
-            <h3 class="viloyatlar-heading">VILOYATLAR RO'YHATI</h3>
-            <ul class="viloyatlar-list">
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">1)Andijon Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">2)Buhoro Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">3)Jzzah Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">4)Qashqadaryo Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">5)Navoiy Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">6)Samarqand Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">7)Surhandaryo Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">8)Toshkenty Viloyati</a>
-                </li >
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">9)Farg'ona Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">10)Xorazm Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">11)Sirdaryo Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">12)Qoraqalpog'iston Viloyati</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">13)Toshkent Shahri</a>
-                </li>
-                <li class="viloyatlar-item">
-                    <a class="viloyatlar-link" href="#">14)Namangan Viloyati</a>
-                </li>
-            </ul>
+    </div>
+    <!-- /reklama -->
+
+    <!-- viloyatlar -->
+    <div class="container">
+        <section class="viloyatlar-section">
+            <h2 class="section-title">viloyatlar ro'yhati</h2>
+            <div class="viloyatlar">
+                <ul class="viloyatlar-items">
+                    <li class="viloyatlar-item">
+                        <a href="andijon.html">1)andijon viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="buhoro.html">2)buxoro viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="jizzah.html">3)jizzah viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="qashqadaryo.html">4)qashqadaryo viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="navoiy.html">5)navoiy viloyati</a>                        
+                    </li>
+                </ul>
+            </div>
+            <div class="viloyatlar">
+                <ul class="viloyatlar-items">
+                    <li class="viloyatlar-item">
+                        <a href="#">6)namangan viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="#">7)samarqand viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="#">8)surhandaryo viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="#">9)toshkent viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="#">10)farg'ona viloyati</a>                        
+                    </li>
+                </ul>
+            </div>
+            <div class="viloyatlar">
+                <ul class="viloyatlar-items">
+                    <li class="viloyatlar-item">
+                        <a href="#">11)sirdaryo viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="#">12)xorazm viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                        <a href="#">13)qoraqalpog'iston viloyati</a>                        
+                    </li>
+                    <li class="viloyatlar-item">
+                       <a href="#">14)toshkent shahri</a>               
+                    </li>
+                </ul>
+            </div>
         </section>
+    </div>
+    <!-- /viloyatlar -->
 
-        <!-- FOLLOWING -->
-        <section class="following">
-            <h1 class="folloving-heading">BIZGA OBUNA BO'LING</h1>
-            <ul class="following-list">
-                <li class="folloving-item"><img src="images/facebook.svg" height="50" alt=""></li>
-                <li class="folloving-item"><img src="images/instagram.svg" height="50" alt=""></li>
-                <li class="folloving-item"><img src="images/telegram.svg" height="50" alt=""></li>
-                <li class="folloving-item"><img src="images/youtube.svg" height="50" alt=""></li>
-            </ul>
+    <!-- obuna -->
+    <div class="container">
+        <section class="obuna-section">
+            <h2 class="section-title">bizga obuna bo'ling</h2>
+            <div class="obuna">
+                <ul class="obuna-items">
+                    <li class="obuna-item">
+                        <a href="#" alt="">
+                            <img src="images/facebook.svg" alt="" width="60px">
+                        </a>
+                    </li>
+                    <li class="obuna-item">
+                        <a href="#" alt="">
+                            <img src="images/instagram.png" alt="" width="60px">
+                        </a>
+                    </li>
+                    <li class="obuna-item">
+                        <a href="#" alt="">
+                            <img src="images/telegram.svg" alt="" width="60px">
+                        </a>
+                    </li>
+                    <li class="obuna-item">
+                        <a href="#" alt="">
+                            <img src="images/youtube.svg" alt="" width="60px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
-     
-
-    </main>
-    <hr>
-
+    </div>
 
     <!-- footer -->
-    <footer class="site-footer">
-         <!-- LOGO -->
-         <a class="sayt-logo" href="index.html"> 
-            <img
-             class="sate-logo-img" src="images/Emblem_of_Uzbekistan.svg" alt="O'zbekiston LOGO" height="50">
-        </a>  
+    <div class="container">
+        <header class="main-footer">
+            <div class="footer-brand">
+                <a href="index.html">
+                    <img src="images/Emblem_of_Uzbekistan.svg" alt="" width="50px">
+                </a>
+            </div>
+            <nav class="footer-navigation">
+                <ul class="footer-navigation-items">
+                    <li class="footer-navigation-item">
+                        <a href="#">bosh sahifa</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">yangiliklar</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">viloyatlar royhati</a>
+                    </li>
+                    <li class="footer-navigation-item">
+                        <a href="#">obuna</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
 
-       <nav class="satenav">
-        <ul class="satenav-list">
-            <li class="satenav-item">
-                <a class="satenac-link" href="">Bosh sahifa</a>
-            </li>
-            <li class="satenav-item">
-                <a  class="satenac-link" href="">Yangiliklar</a>
-            </li>
-            <li class="satenav-item">
-                <a  class="satenac-link" href="">Aloqa</a>
-            </li>
-            <li class="satenav-item">
-                <a  class="satenac-link" href="">Malumotlar</a>
-            </li>
-           </ul>
-       </nav>
-    </footer>
-    
 </body>
 </html>

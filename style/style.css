@@ -1,0 +1,236 @@
+/* core styles */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.body{
+    font-family: sans-serif;
+}
+
+.clerfix{
+    clear: both;
+}
+
+.section-subtitle {
+    font-size: 15px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+
+.section-description{
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    width: 376;
+    height: 120px;
+    overflow: auto;
+}
+
+.section-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400px;
+    color: red;
+}
+
+.news-card-photo{
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+/* main header */
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px rgb(0 0 0 / 10%);
+    z-index: 10;
+}
+
+
+.main-brand{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-brand a image{
+    width: 70px;
+}
+
+.main-navigation{
+    margin-left: 500px;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.main-navigation-item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation-item a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.main-navigation-item a:hover{
+    color: aqua;
+}
+
+/* main-section */
+.main-section{
+    text-align: center;
+    background-image: url(https://uzbekistan.travel/storage/app/media/citys/5e53c06ca0049049451193.jpg);
+}
+
+.main-welcome{
+    padding: 150px 50px;
+}
+
+.main-welcome h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+}
+
+.main-welcome h1 span{
+    color: red;
+}
+
+.main-section-button{
+    color: rgb(185, 47, 66);
+    margin-top: 20px;
+    background: fixed;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-color: #fff;
+}
+
+
+/* news section */
+.section-title{
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.news-section{
+    padding-top: 50px;
+}
+
+.news-card{
+    border: 2px solid black;
+    height: 450px;
+    display: inline-block;
+    width: 31%;
+    background-color: beige;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.news-card:hover{
+    background-color: aqua;
+}
+
+/* reklama style section */
+.reklama-section{
+    padding-top: 40px;
+    text-align: center;
+}
+
+/* viloyatlar style section */
+
+.viloyatlar{
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.viloyatlar-item{
+    list-style: none;
+    text-transform: uppercase; 
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.viloyatlar-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.viloyatlar-item a:hover{
+    color: blue;
+}
+
+/* obuna section style */
+.obuna-section{
+    padding-top: 60px;
+    height: 200px;
+    text-align: center;
+    padding: 150px 50px;
+    border: 1px solid black;
+    background-image: url(https://turizm.pibig.info/uploads/posts/2023-05/thumbs/1683566478_turizm-pibig-info-p-tashkent-siti-dostoprimechatelnosti-tashke-66.jpg);
+    background-color: #ccc;
+}
+
+.obuna-section h2{
+    color: #fff;
+}
+
+
+.obuna-item{
+    list-style: none;
+    display: inline-block;
+}
+
+.obuna-item a{
+    padding-right: 25px;
+}
+
+/* footer section style */
+.main-footer{
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.927);
+}
+
+.footer-brand{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-brand a image{
+    width: 70px;
+}
+
+.footer-navigation{
+    margin-left: 500px;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.footer-navigation-item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer-navigation-item a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
